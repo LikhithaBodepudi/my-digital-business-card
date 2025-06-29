@@ -21,11 +21,11 @@ Footer (social icons)
 
 - React: Frontend JavaScript library for building user interfaces.
 - HTML5: Standard markup language for structuring web content.
-- CSS3: Styling language for the presentation of the web page.
+- CSS3: Styling language for the presentation of the wseb page.
 - Font Awesome: For scalable vector icons.
 - Git: Version control system for tracking changes.
 - GitHub: Platform for hosting and collaborating on code.
 
 ## Screenshot
 
-![Alt text for your screenshot](https://raw.githubusercontent.com/LikhithaBodepudi/my-digital-business-card/main/assets/digital-card-screenshot.png)
+![Screenshot of my React Digital Business Card](https://raw.githubusercontent.com/LikhithaBodepudi/my-digital-business-card/main/assets/digital-card-screenshot.png)
