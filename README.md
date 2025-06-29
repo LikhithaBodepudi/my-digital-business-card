@@ -25,3 +25,7 @@ Footer (social icons)
 - Font Awesome: For scalable vector icons.
 - Git: Version control system for tracking changes.
 - GitHub: Platform for hosting and collaborating on code.
+
+## Screenshot
+
+![Alt text for your screenshot](https://raw.githubusercontent.com/LikhithaBodepudi/my-digital-business-card/main/assets/digital-card-screenshot.png)
