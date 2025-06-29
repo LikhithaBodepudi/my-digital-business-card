@@ -1,0 +1,138 @@
+/* Global styles: Apply to the entire body */
+body {
+    margin: 0; 
+    font-family: 'Inter', sans-serif; /* Set font to Inter (from Google Fonts) */
+    background-color: #23252C; 
+    display: flex;
+    justify-content: center; /* Center the card horizontally */
+    align-items: center; /* Center the card vertically */
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    color: #FFFFFF; 
+}
+
+/* Main container for the digital business card */
+.card-container {
+    background-color: #1A1B21; 
+    width: 317px;
+    border-radius: 10px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensures the profile photo's corners are also rounded by the card's border-radius */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Subtle shadow for depth */
+}
+
+
+.info {
+    text-align: center; 
+}
+
+.info--photo {
+    width: 100%; /* Make the photo take full width of its container */
+    height: 300px; /* Fixed height to make it square */
+    object-fit: cover; /* Ensures the image covers the area without distortion, cropping if necessary */
+    border-top-left-radius: 10px; /* Match card's top-left border radius */
+    border-top-right-radius: 10px; /* Match card's top-right border radius */
+}
+
+.info--name {
+    font-size: 25px;
+    font-weight: 700; /* Bold */
+    margin-top: 21px;
+    margin-bottom: 6px;
+    color: #FFFFFF;
+}
+
+.info--title {
+    font-size: 12.8px;
+    font-weight: 400; 
+    color: #F3BF99; 
+    margin-bottom: 9px;
+}
+
+
+/* Container for Email and LinkedIn buttons */
+.info--buttons {
+    display: flex; 
+    justify-content: center; 
+    gap: 17px; 
+    padding: 0 35px 33px; 
+}
+
+/* Base styling for both Email and LinkedIn buttons */
+.button {
+    flex: 1; /* Allows buttons to grow and take equal space */
+    padding: 9px 13px;
+    border-radius: 6px; 
+    border: none; 
+    font-size: 14px;
+    font-weight: 500; 
+    cursor: pointer; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; /* Vertically center icon and text */
+    justify-content: center; /* Horizontally center icon and text */
+    gap: 8px; /* Space between icon and text */
+    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Specific styling for the Email button */
+.button--email {
+    background-color: #FFFFFF;
+    color: #374151; 
+}
+
+.button--email:hover {
+    background-color: #ebebeb; 
+}
+
+/* Specific styling for the LinkedIn button */
+.button--linkedin {
+    background-color: #5093E2; 
+    color: #FFFFFF;
+}
+
+.button--linkedin:hover {
+    background-color: #407dc7; 
+}
+
+/* Styling for About and Interests sections (shared styles) */
+.about, .interests {
+    padding: 0 35px 24px; 
+}
+
+/* Titles for About and Interests sections */
+.section--title {
+    font-size: 16px;
+    font-weight: 700; /* Bold */
+    margin-bottom: 5px;
+    color: #F5F5F5;
+}
+
+/* Text content for About and Interests sections */
+.section--text {
+    font-size: 10.24px;
+    font-weight: 400; 
+    line-height: 150%; 
+    color: #DCDCDC;
+    margin: 0; 
+}
+
+/* Footer Section: Contains social media icons */
+.footer {
+    background-color: #161619; 
+    padding: 19.5px 73px; 
+    display: flex; 
+    justify-content: center; 
+    gap: 24px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+/* Styling for individual social media icon links */
+.footer a {
+    color: #918E9B; 
+    font-size: 25px; 
+    transition: color 0.2s ease; 
+}
+
+.footer a:hover {
+    color: #DCDCDC; 
+}
